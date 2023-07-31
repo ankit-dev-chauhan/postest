@@ -5,7 +5,8 @@ import { getBearerToken } from "../utils/utils";
 
 const createAPI = () => {
   const apiHeader = {
-    "Content-Type": "application/json",
+    "Content-Type": "application/json", 
+    
   };
   const api = axios.create({
     baseURL: BASE_URL,
