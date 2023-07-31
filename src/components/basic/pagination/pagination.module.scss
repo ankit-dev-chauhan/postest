@@ -1,0 +1,120 @@
+.paginationContainer {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-bottom: 0px;
+  padding-left: 0px;
+
+  .paginationItem {
+    padding: 0 12px;
+    height: 32px;
+    text-align: center;
+    margin: auto 4px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.01071em;
+    line-height: 1.43;
+    font-size: 13px;
+    font-weight: 400;
+    min-width: 32px;
+
+    font-family: "NexaRegular";
+    font-size: 12px;
+    line-height: 14px;
+    color: #4f4c4c;
+    width: 35px;
+    height: 35px;
+    background: #ffffff;
+    border: 1px solid rgba(183, 183, 184, 0.77);
+    border-radius: 5px;
+
+    &.dots:hover {
+      background-color: transparent;
+      cursor: default;
+    }
+
+    &:hover { 
+      background-color: rgba(0, 0, 0, 0.04);
+      cursor: pointer;
+    }
+
+    &.selected {
+      color: white !important;
+      background-color: #fd9149;
+      background: linear-gradient(180deg, #fd9149 0%, #ffd588 100%);
+      border: 1px solid rgba(235, 234, 236, 0.77);
+      border-radius: 5px;
+    }
+
+    &.disabled {
+      pointer-events: none;
+
+      &:hover {
+        background-color: transparent;
+        cursor: default;
+      }
+    }
+  }
+}
+
+.searchInput {
+  width: 100px;
+  height: 22px;
+  border: 1px solid #f5c474;
+  border-radius: 4px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  outline: none;
+}
+
+.searchButton {
+  width: 40px;
+  height: 22px;
+  border: 1px solid #f5c474;
+  border-radius: 4px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-left: 5px;
+}
+
+.prevNxtBtn {
+  width: 125px;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid rgba(183, 183, 184, 0.77);
+  border-radius: 5px;
+}
+
+.prevNxtBtn:hover {
+  background-color: transparent;
+  border: 1px solid rgba(183, 183, 184, 0.77);
+}
+
+.prevNxtBtn:focus {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid rgba(183, 183, 184, 0.77);
+}
+
+.paginationMainDiv {
+  background: #ffffff;
+  height: 106px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnNum {
+  font-family: "NexaRegular";
+  font-size: 12px;
+  line-height: 14px;
+  color: #4f4c4c;
+  width: 35px;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid rgba(183, 183, 184, 0.77);
+  border-radius: 5px;
+}

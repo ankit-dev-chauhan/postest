@@ -1,0 +1,41 @@
+.addBtn {
+   height: 35px !important;
+   color: white !important;
+   font-weight: 600 !important;
+   background: -webkit-linear-gradient(343.68deg, #feaf38 19.79%, #f77433 77.6%);
+   position: relative;
+   border: 0;
+   font-size: 0.875rem !important;
+   text-align: center;
+   border-radius: 0.25rem;
+   white-space: nowrap;
+}
+
+.addBtn:hover::before {
+   opacity: 0;
+}
+
+.addBtn::before {
+   content: "";
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: calc(100% - 0px);
+   height: calc(100% - 0px);
+   border-radius: inherit;
+   background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+   border: 0.0625rem solid #feaf38;
+   transition: all 0.2s;
+   z-index: 0;
+}
+
+.addBtn span {
+   position: relative;
+   z-index: 1;
+   color: #f7f7f7;
+}
+.addBtn img {
+   position: relative;
+   z-index: 1;
+   color: #f7f7f7;
+}

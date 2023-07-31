@@ -1,0 +1,26 @@
+.main {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.main:hover {
+  background: linear-gradient(180deg, #f77433 0%, #feaf38 100%);
+}
+.newBgColor {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(180deg, #f77433 0%, #feaf38 100%);
+}
+.margin {
+  height: 88px;
+}
+
+// <<< ------- Mobile - view ------- >>>
+@media (max-width: 767px) {
+  .margin {
+    height: 74px;
+  }
+}

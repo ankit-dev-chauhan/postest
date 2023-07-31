@@ -1,0 +1,965 @@
+.trTag {
+  height: 30px;
+  background: #fcf4e6;
+}
+
+.iventoryTable {
+  white-space: nowrap;
+  padding-inline: 15px !important;
+}
+
+.tableHeadings {
+  background: #fcf4e6;
+}
+
+.customCheck input {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: left center !important;
+  background-image: url("/icons/products/ellipse-circle-black.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.searchIconDiv {
+  padding-top: 4px;
+  margin-left: -23px;
+}
+
+.searchInputBox {
+  width: 100% !important;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #fd9149 !important;
+  border-radius: 20px;
+  box-shadow: none !important;
+  background-color: white !important;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: start !important;
+  padding-top: 4px;
+}
+
+.searchInputBox::placeholder {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.customCheck input:checked {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: right center !important;
+  background-image: url("/icons/products/ellipse-circle.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.invoiceInfo div {
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 20px;
+  color: #000000;
+  text-align: end;
+}
+
+.infoIcons {
+  width: 30px;
+  height: 136px;
+  background: linear-gradient(180deg, #fd9149 0%, #ffd588 100%);
+  border-radius: 50px;
+}
+
+.invoiceBgImage {
+  background-image: url("/icons/common-icon/invoiceBgImage.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.infoIcons div {
+  line-height: 25px;
+}
+
+.invoicePage {
+  width: 595px;
+  height: 910px;
+}
+
+.orangeBorder {
+  margin-top: 11px;
+  border-top: 1px solid #fd9149;
+}
+
+.marginImage {
+  padding-bottom: 50px;
+}
+
+.newOrangeBorder {
+  height: 1px;
+  width: 70%;
+  background-color: #fd9149;
+}
+
+.thBorder th {
+  border-style: solid !important;
+  border-width: 1px;
+  background: #e8e8e8;
+}
+
+.invoiceBox {
+  padding-top: 27px;
+  padding-bottom: 37px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 999px) {
+  .searchDiv {
+    display: block;
+  }
+
+  .divButton {
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .searchIconDiv {
+    padding-top: 3px;
+    margin-left: -29px;
+  }
+
+  .searchDiv {
+    display: block;
+  }
+
+  .divButton {
+    display: flex;
+    justify-content: end;
+  }
+
+  .sortbyDiv {
+    width: 100%;
+    height: 24px;
+    border: 1px solid #fd9149;
+    padding: 2px;
+  }
+
+  .searchInputBox {
+    height: 25px;
+    padding-left: 15px;
+    width: -webkit-fill-available !important;
+  }
+
+  .inputBoxFromToDate {
+    width: 87px;
+    margin-right: 1px;
+  }
+
+  .smallText {
+    font-size: 9px !important;
+  }
+
+  .formSelect {
+    height: 20px;
+    width: 73px;
+    font-size: 10px;
+    padding: 2px 8px;
+  }
+}
+
+.viewEditBtn {
+  background: #ffffff;
+  box-shadow: 0px 0px 5px 5px rgba(79, 74, 109, 0.1);
+  border-radius: 5px;
+  height: 25px;
+  width: 89px;
+}
+
+.tblBorder th {
+  border: none !important;
+  padding-inline: 3px;
+}
+
+.mbBottom {
+  background: linear-gradient(1.22deg, #f2f2f2 -29.35%, rgba(242, 242, 242, 0) 67.75%);
+}
+
+.sortByBox {
+  width: 100%;
+  height: 32px;
+  border: 1px solid #fd9149;
+}
+
+.inputBoxStoreName,
+.inputBoxCategoryName {
+  height: 30px;
+  border: 1px solid #fd9149 !important;
+  box-shadow: none !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+  align-items: center;
+  width: 216px;
+}
+
+.inputBoxCategoryName {
+  width: 267px !important;
+}
+
+// .inputBoxFromToDate {
+//   height: 21px;
+//   border: 1px solid #fd9149 !important;
+//   box-shadow: none !important;
+//   width: 101px;
+//   font-family: "Mulish";
+//   font-style: normal;
+//   font-weight: 600;
+//   font-size: 10px;
+//   line-height: 13px;
+//   color: #000000 !important;
+// }
+
+.searchResetBtn {
+  width: 57px;
+  height: 19px;
+  background: #ffffff !important;
+  border: 1px solid #f1c09d;
+  box-shadow: 2px 2px 5px 5px rgba(254, 170, 111, 0.12) !important;
+  border-radius: 5px !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #fd9149;
+}
+
+.formSelect {
+  height: 29px;
+  border: none;
+  width: 115px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  color: #000000;
+}
+
+.formSelect:focus {
+  height: 29px;
+  border: none;
+  // width: 115px;
+  box-shadow: none;
+}
+
+.exportbtns {
+  width: 130px;
+  height: 35px;
+  background: rgba(255, 213, 136, 0.5);
+  border: 1px solid #ccd1cc;
+  border-radius: 5px;
+}
+
+.customCheck input {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: left center !important;
+  background-image: url("/icons/products/ellipse-circle-black.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.customCheck input:checked {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: right center !important;
+  background-image: url("/icons/products/ellipse-circle.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.viewEditBtn {
+  background: #ffffff;
+  box-shadow: 0px 0px 5px 5px rgba(79, 74, 109, 0.1);
+  border-radius: 5px;
+  height: 25px;
+  width: 89px;
+}
+
+.tblBorder td {
+  border: none !important;
+  padding-top: 18px !important;
+  padding-bottom: 14px !important;
+  padding-inline: 0px !important;
+}
+
+.tblBorder th {
+  border: none !important;
+  padding-inline: 3px;
+}
+
+.mbBottom {
+  margin-bottom: 150px;
+  background: linear-gradient(1.22deg, #f2f2f2 -29.35%, rgba(242, 242, 242, 0) 67.75%);
+}
+
+.input_Box {
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #fd9149 !important;
+  box-shadow: none !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+  align-items: center;
+}
+
+.sortbyDiv {
+  width: 145px;
+  height: 32px;
+  border: 1px solid #ccd1cc;
+}
+
+.inputBoxStoreName {
+  height: 30px;
+  border: 1px solid #fd9149 !important;
+  box-shadow: none !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+  align-items: center;
+  width: 216px;
+}
+
+// .inputBoxFromToDate {
+//   height: 21px;
+//   border: 1px solid #fd9149 !important;
+//   box-shadow: none !important;
+//   width: 101px;
+//   font-family: "Mulish";
+//   font-style: normal;
+//   font-weight: 600;
+//   font-size: 10px;
+//   line-height: 13px;
+//   color: #000000 !important;
+// }
+
+.inputBoxFromToDate:focus {
+  outline: none !important;
+}
+
+.searchResetBtn {
+  width: 57px;
+  height: 19px;
+  background: #ffffff !important;
+  border: 1px solid #f1c09d;
+  box-shadow: 2px 2px 5px 5px rgba(254, 170, 111, 0.12) !important;
+  border-radius: 5px !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #fd9149;
+}
+
+.formSelect {
+  height: 30px;
+  border: none;
+  width: 115px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  color: #000000;
+}
+
+.formSelect:focus {
+  height: 30px;
+  border: none;
+  // width: 115px;
+  box-shadow: none;
+}
+
+.linkTag {
+  color: #000000;
+  text-decoration: none;
+}
+
+.inputBoxForm {
+  // width: 50px;
+  height: 26px;
+  background: #ffffff;
+  border: 1px solid #fd9149;
+  border-radius: 5px;
+  box-shadow: none !important;
+  background-color: white !important;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.inputBoxForm::placeholder {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.customCheck input {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: left center !important;
+  background-image: url("/icons/products/ellipse-circle-black.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.customCheck input:checked {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: right center !important;
+  background-image: url("/icons/products/ellipse-circle.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.inputBoxFormNone {
+  width: 267px;
+  height: 26px;
+  border: none !important;
+  box-shadow: none !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000 !important;
+}
+
+.inputBoxFormNone ::placeholder {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000 !important;
+}
+
+.inputBox {
+  // width: 250px;
+  height: 33px;
+  border: 1px solid gold;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.inputBox::placeholder {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  color: #000000;
+}
+
+.inputBox:focus {
+  box-shadow: none;
+  border: 1px solid #ffd588;
+  box-shadow: none;
+}
+
+.radioButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  line-height: 18px;
+  color: black !important;
+  box-shadow: none !important;
+
+  label {
+    margin-left: 4px;
+    margin-top: 4px;
+  }
+}
+
+.imgBtn {
+  background: rgba(255, 248, 237, 0.5);
+  border-radius: 5px;
+  height: 30px;
+  // width: 120px;
+  border: 1px solid #fd9149 !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #000000;
+}
+
+.inputBoxSolitaireSizeFrom {
+  width: 138px;
+  height: 26px;
+  border-radius: 5px;
+  border: 1px solid #fd9149 !important;
+  font-size: 10px !important;
+  // border: 1px solid $gold !important;
+}
+
+.inputBoxSolitaireSizeFrom:focus {
+  box-shadow: none;
+  border: 1px solid #ffd588;
+  box-shadow: none;
+}
+
+.uploadImgBtn {
+  width: 102.63px;
+}
+
+.inputBoxPriority {
+  border-radius: 5px;
+  height: 25px;
+  width: 25px;
+  border: 1px solid #fd9149 !important;
+  box-shadow: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadImgCircleDiv {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #323232;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_BtnCategory {
+  width: 120px;
+  background: lightyellow;
+  border-radius: 5px;
+  height: 30px;
+  // width: 120px;
+  border: 1px solid #fd9149 !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #000000;
+}
+
+.border_bottom {
+  border-bottom: none;
+  border-color: #ffffff !important;
+}
+
+.outline {
+  height: 250px;
+  overflow-y: scroll;
+  border: 1px solid #ffd588;
+  border-radius: 12px;
+}
+
+/* width */
+.outline::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.outline::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.outline::-webkit-scrollbar-thumb {
+  //   background: #fd9149;
+  background: linear-gradient(45deg, #ffd588 6.6%, #fd9149 80.58%);
+  border-radius: 10px;
+}
+
+.imgDiv {
+  width: auto;
+  height: fit-content;
+  border: 1px solid #fd9149;
+}
+
+.outlineDiv {
+  height: fit-content;
+  border: 1px solid #fd9149;
+  border-radius: 5px;
+}
+
+.customCheck input {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: left center !important;
+  background-image: url("/icons/products/ellipse-circle-black.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.customCheck input:checked {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: right center !important;
+  background-image: url("/icons/products/ellipse-circle.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.viewEditBtn {
+  background: #ffffff;
+  box-shadow: 0px 0px 5px 5px rgba(79, 74, 109, 0.1);
+  border-radius: 5px;
+  height: 25px;
+  width: 89px;
+}
+
+.tblBorder td {
+  border: none !important;
+  padding-top: 18px !important;
+  padding-bottom: 14px !important;
+  padding-inline: 0px !important;
+}
+
+.tblBorder th {
+  border: none !important;
+  padding-inline: 3px;
+}
+
+.input_Box {
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #fd9149 !important;
+  box-shadow: none !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+  align-items: center;
+}
+
+.sortbyDiv {
+  width: auto;
+  height: 32px;
+  padding: 3px 6px;
+  border: 1px solid #ccd1cc;
+}
+
+.inputBoxStoreName {
+  height: 30px;
+  border: 1px solid #fd9149 !important;
+  box-shadow: none !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+  align-items: center;
+  width: 216px;
+}
+
+.inputBoxFromToDate {
+  height: 21px;
+  border: 1px solid #fd9149 !important;
+  border-radius: 4px;
+  box-shadow: none !important;
+  width: 101px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000 !important;
+}
+
+.searchResetBtn {
+  width: 57px;
+  height: 19px;
+  background: #ffffff !important;
+  border: 1px solid #f1c09d;
+  box-shadow: 2px 2px 5px 5px rgba(254, 170, 111, 0.12) !important;
+  border-radius: 5px !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #fd9149;
+}
+
+.formSelect {
+  height: 30px;
+  border: none;
+  width: 115px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  color: #000000;
+}
+
+.formSelect:focus {
+  height: 30px;
+  border: none;
+  // width: 115px;
+  box-shadow: none;
+}
+
+.inputBoxForm {
+  // width: 50px;
+  height: 26px;
+  background: #ffffff;
+  border: 1px solid #fd9149;
+  border-radius: 5px;
+  box-shadow: none !important;
+  background-color: white !important;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.inputBoxForm::placeholder {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.customCheck input {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: left center !important;
+  background-image: url("/icons/products/ellipse-circle-black.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.customCheck input:checked {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: right center !important;
+  background-image: url("/icons/products/ellipse-circle.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.inputBoxSolitaireSizeFrom {
+  width: 138px;
+  height: 26px;
+  border-radius: 5px;
+  border: 1px solid #fd9149 !important;
+  font-size: 10px !important;
+  // border: 1px solid $gold !important;
+}
+
+.inputBoxSolitaireSizeFrom:focus {
+  box-shadow: none;
+  border: 1px solid #ffd588;
+  box-shadow: none;
+}
+
+.img_BtnCategory {
+  width: 120px;
+  background: lightyellow;
+  border-radius: 5px;
+  height: 30px;
+  // width: 120px;
+  border: 1px solid #fd9149 !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #000000;
+}
+
+.border_bottom {
+  border-bottom: none;
+  border-color: #ffffff !important;
+}
+
+.borderStyleNew {
+  background: linear-gradient(80deg, #00000009 0%, #f3f3f3 10%, #f8e9d090 50%, #f3f3f3 100%);
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.borderStyleNewSmallBtn {
+  background: linear-gradient(90deg, #f3f3f3 0%, #f8e9d090 50%, #f3f3f3 100%);
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+.quesadilla {
+  position: relative;
+  border-radius: 5px !important;
+}
+
+.quesadilla:focus {
+  border-color: #6fb98f;
+}
+
+.quesadilla:after {
+  z-index: -1; //this unblock the click
+  content: url("/icons/newCalendorIcon.png");
+  display: block;
+  // font-size:2rem;
+  color: STEELBLUE;
+  background: none;
+  border-radius: 5px !important;
+  outline: none;
+  position: absolute;
+  top: 4px;
+  right: 6px;
+}
+
+.enchilada::placeholder {
+  font-weight: 600;
+  font-size: 10px;
+  padding-left: 10px;
+  color: black;
+}
+
+.enchilada::-webkit-calendar-picker-indicator {
+  opacity: 0; //removes awful triangle indicator
+}
+
+.enchilada,
+.enchilada:focus {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+}
+
+.quesadilla::-webkit-datetime-edit {
+  padding: 0.2em;
+  font-size: 2rem;
+}
+
+.quesadilla::-webkit-datetime-edit-fields-wrapper {
+  background: #f0eabd; //the date background
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.quesadilla::-webkit-datetime-edit-text {
+  color: silver;
+  padding: 0 0.6em; //the separation dashes
+}
+
+.quesadilla::-webkit-datetime-edit-day-field {
+  color: DeepPink; //the first digits
+}
+
+.quesadilla::-webkit-datetime-edit-month-field {
+  color: LimeGreen; //the second digits
+}
+
+.quesadilla::-webkit-datetime-edit-year-field {
+  color: MediumSlateBlue; //the third digits
+}
+
+.quesadilla::-webkit-inner-spin-button {
+  opacity: 1; //shows element
+  font-size: 2rem;
+  margin-top: 5px;
+  //-webkit-appearance: none; //removes element
+}
+
+.quesadilla::-webkit-calendar-picker-indicator {
+  background: DarkSlateGray;
+  color: Cornsilk;
+  opacity: 1;
+  font-size: 1.5rem;
+  transition: all ease 400ms;
+  transform: scale(1);
+  margin-left: 5px;
+}
+
+.quesadilla::-webkit-calendar-picker-indicator:hover {
+  background: Teal;
+  color: Cyan;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.quesadilla input::-webkit-datetime-edit-year-field[enabled] {
+  font-size: 5rem;
+}

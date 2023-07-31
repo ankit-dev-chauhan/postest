@@ -1,0 +1,419 @@
+@import "../../../../styles/colors/colors.scss";
+
+.tblBorder td {
+  border: none !important;
+  padding-inline: 0px;
+  overflow: none;
+}
+
+.tblBorder th {
+  border: none !important;
+  padding-inline: 3px;
+}
+
+.tableWallet {
+  background-image: url("/icons/settings/tableBG.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.borderRight {
+  height: 14px;
+  border-right: 1px solid #d9d9d9;
+  padding-right: 1rem;
+}
+.tableWallet th {
+  border-right: 1px solid #d9d9d9;
+}
+
+.tableWallet td {
+  border-right: 1px solid #d9d9d9;
+}
+
+.viewEditBtn {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 5px 5px rgba(79, 74, 109, 0.1);
+  border-radius: 5px !important;
+  height: 25px;
+  width: 89px;
+  margin: auto;
+  // margin-right:3px;
+}
+.viewBtn {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 5px 5px rgba(79, 74, 109, 0.1);
+  border-radius: 5px !important;
+  height: 25px;
+  width: 89px;
+  border: 1px solid #626060 !important;
+  // margin: auto;
+  margin-left: 3px;
+}
+.viewBtnNew {
+  background: #ffffff !important;
+  box-shadow: none !important;
+  height: 25px;
+  width: 89px;
+  border: none !important;
+  // margin: auto;
+  margin-left: 3px;
+}
+
+.customCheck input {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: left center !important;
+  background-image: url("/icons/products/ellipse-circle-black.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+
+.fileUploadDiv {
+  background: #fff8ed;
+  border: 1px solid #a09d9d;
+  border-radius: 7px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.selectBoxInput {
+  width: 91px;
+  height: 19px;
+  border: 1px solid #fd9149;
+  font-size: 12px;
+  padding: 0px 15px;
+  border-radius: 0px;
+}
+
+.selectBoxInput:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #fd9149;
+  font-size: 12px;
+  padding: 0px 15px;
+}
+
+.okBtn {
+  width: 37px !important;
+  height: 19px !important;
+  background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+  &:hover {
+    background: -webkit-linear-gradient(
+      343.68deg,
+      #feaf38 19.79%,
+      #f77433 77.6%
+    );
+  }
+}
+
+.iventoryTable {
+  white-space: nowrap;
+  padding-inline: 16px !important;
+}
+
+.stockTable {
+  white-space: nowrap;
+  padding-inline: 10px !important;
+}
+
+.actionbtnTable {
+  white-space: nowrap;
+  padding-inline: 60px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.VerifybtnTable {
+  white-space: nowrap;
+  padding-inline: 25px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.selectAccordion {
+  position: sticky;
+  z-index: 99;
+  background: white;
+}
+.paddingInlineTd {
+  padding-inline: 10px !important;
+}
+
+.viewBlueBtn {
+  width: 90px;
+  height: 25px;
+  background: #ffffff;
+  border: 1px solid #626060;
+  box-shadow: 0px 0px 5px 5px rgba(79, 74, 109, 0.1);
+  border-radius: 5px;
+}
+
+.downloadBtn {
+  width: 90px;
+  height: 25px;
+  background: #ffffff;
+  border: 1px solid #f1c09d;
+  box-shadow: 2px 2px 5px 5px rgba(254, 170, 111, 0.12);
+  border-radius: 5px;
+}
+
+.downloadButton {
+  width: 89px;
+  height: 25px;
+  border: 1px solid #fd9149;
+  box-shadow: 0px 0px 5px 5px rgba(79, 74, 109, 0.1);
+  border-radius: 5px;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 20px;
+}
+
+.textTruncation {
+  width: 10px;
+}
+
+.tdWidth {
+  width: 10px !important;
+}
+
+.tableHeadings {
+  background: $lightorange;
+}
+
+.bg_image {
+  background-image: url("/img/walletimg.svg");
+  height: 67px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.whitebg {
+  background-color: white;
+  width: 125px;
+  height: 71px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btnBrdr {
+  background-image: url("/img/profile/triangle.svg");
+  background-size: 1.3rem;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.rightBottomRow {
+  // border-bottom: 1px solid $color-light-white1;
+  border: 1px solid #e8e7e7;
+  border-radius: 2px;
+}
+
+.bgColor {
+  background: #fafafa;
+  border: 1px solid #e8e7e7;
+  border-radius: 2px;
+}
+
+.balnceAmountDiv {
+  width: 162px;
+  height: 63px;
+  // background: linear-gradient(220.15deg, #F8F8F8 66.77%, rgba(255, 213, 136, 0) 186.19%);
+  background-image: url("/icons/settings/GradientBG.svg");
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.rowBottomBorder {
+  border-bottom: 1px solid #a09d9d;
+}
+
+.tableBorder {
+  border: 1px solid #d9d9d9;
+}
+
+.greyBackground {
+  background-color: #ccd1cc1c;
+}
+
+.triangleDiv {
+  position: absolute;
+  bottom: -24px;
+}
+
+.barTab {
+  background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+  &:hover {
+    background: -webkit-linear-gradient(
+      343.68deg,
+      #feaf38 19.79%,
+      #f77433 77.6%
+    );
+  }
+  width: 164px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+}
+.solitaireBottomBorder {
+  border-bottom: 0.71px solid #b5afaf;
+}
+.list_Style {
+  text-decoration: none;
+}
+.customCheck input {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: left center !important;
+  background-image: url("/icons/products/ellipse-circle-black.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.customCheck input:checked {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: right center !important;
+  background-image: url("/icons/products/ellipse-circle.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+.pdfDownloadBtn {
+  border: none;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+  &:hover {
+      background: -webkit-linear-gradient(343.68deg, #feaf38 19.79%, #f77433 77.6%);
+  }
+}
+// .customCheck input {
+//     width: 30px!important;
+//     height: 15px;
+//     box-shadow: none !important;
+//     background: #D9D9D9 !important;
+//     border: 1px solid #CCD1CC !important;
+//     border-radius: 15px !important;
+//     background-position: left center !important;
+//     background-image: url('/icons/ellipseCircleBlack.png') !important;
+//     background-repeat: no-repeat !important;
+// }
+
+// .customCheck input:checked {
+//     width: 30px!important;
+//     height: 15px;
+//     box-shadow: none !important;
+//     background: #D9D9D9 !important;
+//     border: 1px solid #CCD1CC !important;
+//     border-radius: 15px !important;
+//     background-position: right center !important;
+//     background-image: url('/icons/ellipseCircle.png') !important;
+//     background-repeat: no-repeat !important;
+// }
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  .viewEditBtn {
+    width: 50px;
+  }
+  .font8 {
+    font-size: 8px !important;
+  }
+}
+
+.customCheck input:checked {
+  width: 30px;
+  height: 15px;
+  box-shadow: none !important;
+  background: #d9d9d9 !important;
+  border: 1px solid #ccd1cc !important;
+  border-radius: 15px !important;
+  background-position: right center !important;
+  background-image: url("/icons/products/ellipse-circle.svg") !important;
+  background-repeat: no-repeat !important;
+}
+
+// <<< ------- I-Pad Mini ------- >>>
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .viewEditBtn {
+    width: 50px;
+  }
+  .font8 {
+    font-size: 8px !important;
+  }
+}
+
+// <<< ------- Mobile - view ------- >>>
+
+@media (max-width: 767px) {
+  .tblBorder td span {
+    font-size: 9px !important;
+  }
+
+  .tblBorder th span {
+    font-size: 9px !important;
+    // border: none !important;
+    // padding-inline: 3px;
+  }
+}
+.inputBoxCategoryName {
+  height: 26px;
+  border: 1px solid #fd9149 !important;
+  box-shadow: none !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #000000;
+  align-items: center;
+  width: 95px;
+  margin: auto;
+  border-radius: 0px;
+}
+.viewOkBtn {
+  border: 1px solid #fd9149;
+  border-radius: 0px !important;
+  height: 30px;
+  width: 35px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+  color: #ffffff;
+  margin-left: 15px;
+  margin-right: 12px;
+  background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+  &:hover {
+    background: -webkit-linear-gradient(
+      343.68deg,
+      #feaf38 19.79%,
+      #f77433 77.6%
+    );
+  }
+}

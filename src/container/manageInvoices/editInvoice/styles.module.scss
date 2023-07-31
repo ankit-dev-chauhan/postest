@@ -1,0 +1,607 @@
+// @import "../../../../../styles/colors/colors.scss";
+
+.customCheck input {
+    width: 30px;
+    height: 15px;
+    box-shadow: none !important;
+    background: #d9d9d9 !important;
+    border: 1px solid #ccd1cc !important;
+    border-radius: 15px !important;
+    background-position: left center !important;
+    background-image: url("/icons/products/ellipse-circle-black.svg") !important;
+    background-repeat: no-repeat !important;
+}
+
+.customCheck input:checked {
+    width: 30px;
+    height: 15px;
+    box-shadow: none !important;
+    background: #d9d9d9 !important;
+    border: 1px solid #ccd1cc !important;
+    border-radius: 15px !important;
+    background-position: right center !important;
+    background-image: url("/icons/products/ellipse-circle.svg") !important;
+    background-repeat: no-repeat !important;
+}
+
+.newInvoiceTable .form-select {
+  font-size: 10px;
+  padding: 0px;
+}
+
+.newInvoiceTable .form-select:focus {
+  box-shadow: none !important;
+}
+.viewEditBtn {
+    background: #ffffff;
+    box-shadow: 0px 0px 5px 5px rgba(79, 74, 109, 0.1);
+    border-radius: 5px;
+    height: 25px;
+    width: 89px;
+}
+
+.tblBorder td {
+    border: none !important;
+    padding-top: 18px !important;
+    padding-bottom: 14px !important;
+    padding-inline: 0px !important;
+}
+
+.tblBorder th {
+    border: none !important;
+    // padding-top: 18px !important;
+    // padding-bottom: 14px !important;
+    // padding: 3px !important;
+    padding-inline: 3px;
+}
+
+.newTable td {
+    font-size: 10px !important;
+}
+
+.mbBottom {
+    margin-bottom: 150px;
+    background: linear-gradient(1.22deg, #f2f2f2 -29.35%, rgba(242, 242, 242, 0) 67.75%);
+}
+
+.input_Box {
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #fd9149 !important;
+    box-shadow: none !important;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+    align-items: center;
+}
+
+.height_enter {
+    height: 90px !important;
+    background: #ffffff;
+    border: 1px solid #fd9149 !important;
+    border-radius: 5px;
+    box-shadow: none !important;
+    background-color: white !important;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.inputBoxStoreName {
+    height: 30px;
+    border: 1px solid #fd9149 !important;
+    box-shadow: none !important;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+    align-items: center;
+    width: 216px;
+}
+
+.inputBoxFromToDate {
+    height: 26px;
+    border: 1px solid #fd9149 !important;
+    border-radius: 4px;
+    box-shadow: none !important;
+    width: 190px !important;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000 !important;
+}
+
+.inputBoxFromToDate:focus {
+    outline: none;
+}
+
+.searchResetBtn {
+    width: 57px;
+    height: 19px;
+    background: #ffffff !important;
+    border: 1px solid #f1c09d;
+    box-shadow: 2px 2px 5px 5px rgba(254, 170, 111, 0.12) !important;
+    border-radius: 5px !important;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.28px;
+    color: #fd9149;
+}
+
+.formSelect {
+    height: 30px;
+    border: none;
+    width: 115px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    color: #000000;
+}
+
+.formSelect:focus {
+    height: 30px;
+    border: none;
+    box-shadow: none;
+}
+
+.linkTag {
+    color: #000000;
+    text-decoration: none;
+}
+
+.inputBoxForm {
+    // width: 50px;
+    height: 26px;
+    background: #ffffff;
+    border: 1px solid #fd9149 !important;
+    border-radius: 5px;
+    box-shadow: none !important;
+    background-color: white !important;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.formInput{
+    height: 26px;
+    padding: 0px 11px;
+    font-size: 10px;
+    background: #ffffff;
+    border: 1px solid #fd9149 !important;
+}
+
+.inputBoxApplyCoupon {
+    background: #ffffff;
+    border: 1px solid #fd9149;
+    border-radius: 5px;
+    box-shadow: none !important;
+    background-color: white !important;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-bottom-color: #fed487;
+    border-right-color: transparent;
+}
+
+.inputBoxApplyCoupon:focus-visible {
+    outline: none !important;
+}
+
+.inputBoxApplyCoupon:focus {
+    border-color: #fd9149 !important;
+}
+
+.inputBoxApplyBtn {
+    margin-left: -5px !important;
+}
+
+.aplTextSpan {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+    &:hover {
+        background: -webkit-linear-gradient(343.68deg, #feaf38 19.79%, #f77433 77.6%);
+    }
+    border-radius: 0.375rem;
+}
+
+.AddNewBtn {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.355rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+    &:hover {
+        background: -webkit-linear-gradient(343.68deg, #feaf38 19.79%, #f77433 77.6%);
+    }
+    border-radius: 0.375rem;
+}
+
+.inputBoxForm::placeholder {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+}
+.formInput::placeholder {
+    padding: 0px 11px;
+    font-size: 10px;
+    color: #000000;
+}
+.customCheck input {
+    width: 30px;
+    height: 15px;
+    box-shadow: none !important;
+    background: #d9d9d9 !important;
+    border: 1px solid #ccd1cc !important;
+    border-radius: 15px !important;
+    background-position: left center !important;
+    background-image: url("/icons/products/ellipse-circle-black.svg") !important;
+    background-repeat: no-repeat !important;
+}
+
+.customCheck input:checked {
+    width: 30px;
+    height: 15px;
+    box-shadow: none !important;
+    background: #d9d9d9 !important;
+    border: 1px solid #ccd1cc !important;
+    border-radius: 15px !important;
+    background-position: right center !important;
+    background-image: url("/icons/products/ellipse-circle.svg") !important;
+    background-repeat: no-repeat !important;
+}
+
+.inputBoxFormNone {
+    width: 267px;
+    height: 26px;
+    border: none !important;
+    box-shadow: none !important;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000 !important;
+}
+
+.inputBoxFormNone ::placeholder {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000 !important;
+}
+
+.inputBox {
+    // width: 250px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #fd9149 !important;
+    font-size: 10px !important;
+}
+
+.inputBox::placeholder {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    color: #000000;
+}
+
+.inputBox:focus {
+    box-shadow: none;
+    border: 1px solid #ffd588;
+    box-shadow: none;
+}
+
+.radioButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 18px;
+    color: black !important;
+    box-shadow: none !important;
+
+    label {
+        margin-left: 4px;
+        margin-top: 4px;
+    }
+}
+
+.imgBtn {
+    background: rgba(255, 248, 237, 0.5);
+    border-radius: 5px;
+    height: 30px;
+    // width: 120px;
+    border: 1px solid #fd9149 !important;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.28px;
+    color: #000000;
+}
+
+.inputBoxSolitaireSizeFrom {
+    width: 138px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #fd9149 !important;
+    font-size: 10px !important;
+    // border: 1px solid $gold !important;
+}
+
+.inputBoxSolitaireSizeFrom:focus {
+    box-shadow: none;
+    border: 1px solid #ffd588;
+    box-shadow: none;
+}
+
+.uploadImgBtn {
+    width: 102.63px;
+}
+
+.inputBoxPriority {
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #fd9149 !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploadImgCircleDiv {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #323232;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_BtnCategory {
+    width: 120px;
+    background: lightyellow;
+    border-radius: 5px;
+    height: 30px;
+    // width: 120px;
+    border: 1px solid #fd9149 !important;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.28px;
+    color: #000000;
+}
+
+// .border_bottom>:not(caption)>*>* {
+//   padding: 0px 0.5rem;
+//   border-bottom-width: 0px;
+//   border-color: #ffffff !important;
+// }
+.border_bottom {
+    border-bottom: none;
+    border-color: #ffffff !important;
+}
+
+.outline {
+    height: 250px;
+    overflow-y: scroll;
+    border: 1px solid #ffd588;
+    border-radius: 12px;
+}
+
+/* width */
+.outline::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.outline::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.outline::-webkit-scrollbar-thumb {
+    //   background: #fd9149;
+    background: linear-gradient(45deg, #ffd588 6.6%, #fd9149 80.58%);
+    border-radius: 10px;
+}
+
+.borderStyleNew {
+    background: linear-gradient(90deg, #f3f3f3 0%, #f8e9d090 50%, #f3f3f3 100%);
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.borderStyleNewSmallBtn {
+    background: linear-gradient(90deg, #f3f3f3 0%, #f8e9d090 50%, #f3f3f3 100%);
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+.imgDiv {
+    width: auto;
+    height: fit-content;
+    border: 1px solid #fd9149;
+}
+
+.outlineDiv {
+    height: fit-content;
+    border: 1px solid #fd9149;
+    border-radius: 5px;
+}
+
+.progressDiv {
+    width: 585px;
+    height: 100px;
+}
+
+.progressBar {
+    background: #c4c4c4;
+    border-radius: 5px;
+    height: 5px !important;
+
+    div {
+        background: linear-gradient(89.98deg, #fd9149 1.91%, #ffd588 99.98%);
+    }
+}
+
+.orderIdInput {
+    position: absolute;
+    right: -21px;
+    top: 2px;
+}
+
+.tableBorder {
+    border: 1px solid #c6adad;
+
+    th {
+        padding-block: 0px;
+        border-width: 1px;
+        background: #e8e8e8;
+        border-style: solid !important;
+    }
+
+    td {
+        padding-block: 0px;
+    }
+}
+
+.inputBoxTd {
+    outline: none !important;
+    font-family: "Mulish" !important;
+    font-size: 20px !important;
+    font-size: 0.7rem !important;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    background: white;
+}
+
+.modalDiv > div {
+    max-width: 85% !important;
+}
+
+.InvoicePdf {
+    box-sizing: border-box;
+    width: 595px;
+    border: 1px solid #000000;
+    margin: auto;
+}
+
+.invoiceBtn {
+    width: 100%;
+    margin: auto;
+
+    .downloadInvoice {
+        box-sizing: border-box;
+        width: 146px;
+        height: 35px;
+        background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+        &:hover {
+            background: -webkit-linear-gradient(343.68deg, #feaf38 19.79%, #f77433 77.6%);
+        }
+        border: 1px solid #ccd1cc;
+        cursor: pointer;
+    }
+
+    .newInvoice {
+        width: 146px;
+        height: 35px;
+        cursor: pointer;
+        border: 1px solid #ccd1cc;
+        background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+        &:hover {
+            background: -webkit-linear-gradient(343.68deg, #feaf38 19.79%, #f77433 77.6%);
+        }
+    }
+}
+
+.pdfDownloadBtn {
+    border: none;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+    &:hover {
+        background: -webkit-linear-gradient(343.68deg, #feaf38 19.79%, #f77433 77.6%);
+    }
+}
+
+.plusIcon {
+    width: 10px;
+    height: 10px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.checkIconPosition{
+    position: absolute !important;
+    top: 3px !important;
+    right: 19px !important;
+}
+.priceDiv{
+    margin-top: 53px;
+}
+
+.tbodyChild tr td{
+    border: #FFFF;
+}
+@media (max-width: 767px) {
+    .inputBoxFromToDate {
+        width: 100% !important;
+    }
+
+    .invoiceBtn {
+        text-align: center;
+    }
+
+    .progressDiv {
+        width: 100%;
+        height: 100px;
+    }
+}

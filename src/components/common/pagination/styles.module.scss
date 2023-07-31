@@ -1,0 +1,97 @@
+.prevNxtBtn {
+  width: 125px;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid rgba(183, 183, 184, 0.77);
+  border-radius: 5px;
+}
+.paginationMainDiv {
+  background: #ffffff;
+  height: 106px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.btnNumSelected { 
+  border: 1px solid rgba(235, 234, 236, 0.77);
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  font-family: "NexaRegular";
+  font-size: 12px;
+  line-height: 14px;
+  color: #4f4c4c;
+  background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+  &:hover {
+    background: -webkit-linear-gradient(343.68deg, #feaf38 19.79%, #f77433 77.6%);
+  }
+}
+.btnNum {
+  font-family: "NexaRegular";
+  font-size: 12px;
+  line-height: 14px;
+  color: #4f4c4c;
+  width: 35px;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid rgba(183, 183, 184, 0.77);
+  border-radius: 5px;
+}
+.btnPage {
+  width: 69px;
+  height: 35px;
+  background: #ffffff !important;
+  border: 1px solid rgba(183, 183, 184, 0.77);
+  border-radius: 5px;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4f4c4c !important;
+  display: flex;
+  justify-content: center;
+}
+.btnGo {
+  width: 44px;
+  height: 25px;
+  box-shadow: 0px 0px 5px 5px rgba(79, 74, 109, 0.1);
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #fd9149;
+}
+
+// <<< ------- I-Pad Pro ------- >>>
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+}
+
+// <<< ------- Mobile - view ------- >>>
+
+@media (max-width: 767px) {
+  .prevNxtBtn {
+    width: 90px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 575px) {
+  .contentCenter {
+    margin-top: 10px;
+    justify-content: center !important;
+  }
+  .contentPage {
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 8px;
+  }
+  .paginationMainDiv {
+    height: 130px;
+  }
+}

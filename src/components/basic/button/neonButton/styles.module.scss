@@ -1,0 +1,14 @@
+.button {
+   background-color: transparent;
+   border: 1px solid #fd9149;
+   height: 2.25rem;
+   border-radius: 50px;
+   -webkit-transition: all 0.15s ease-in-out;
+   transition: all 0.15s ease-in-out;
+   color: #fd9149;
+}
+.button:hover {
+   box-shadow: 0 0 10px 0 #fd9149 inset, 0 0 20px 2px #fd9149;
+   border: 1px solid #fd9149;
+   text-shadow: 0px 0px 20px #fd9149;
+}

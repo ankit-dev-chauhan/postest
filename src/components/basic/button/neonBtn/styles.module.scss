@@ -1,0 +1,16 @@
+.button {
+   outline: none;
+   border: 1px solid#ffd588;
+   cursor: pointer;
+   height: 2.25rem;
+   border-radius: 0.25rem;
+   background: transparent;
+   color: #ffd588;
+   transition: all 0.5s;
+}
+.button:hover {
+   background: #ffd588;
+   color: white;
+   border: 2px solid#ffd588;
+   box-shadow: 0 0 10px#ffd588, 0 0 20px#ffd588, 0 0 30px#ffd588, 0 0 40px#ffd588, 0 0 50px#ffd588;
+}

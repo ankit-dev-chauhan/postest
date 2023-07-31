@@ -1,0 +1,35 @@
+.button {
+   position: relative;
+   font-family: inherit;
+   min-width: 12rem;
+   border: 0;
+   background: -webkit-linear-gradient(343.68deg, #feaf38 19.79%, #f77433 77.6%);
+   height: 2.5rem;
+   font-size: 0.875rem;
+   text-align: center;
+   border-radius: 0.25rem;
+   font-weight: 400;
+}
+
+.button:hover::before {
+   opacity: 0;
+}
+
+.button::before {
+   content: "";
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: calc(100% - 0px);
+   height: calc(100% - 0px);
+   border-radius: inherit;
+   background: linear-gradient(106.32deg, #f77433 15.3%, #feaf38 88.94%);
+   border: 0.0625rem solid #feaf38;
+   transition: all 0.2s;
+}
+
+.button span {
+   position: relative;
+   z-index: 1;
+   color: #f7f7f7;
+}

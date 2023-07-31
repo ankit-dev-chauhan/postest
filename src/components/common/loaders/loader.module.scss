@@ -1,0 +1,17 @@
+@import "../../../../styles/colors/colors.scss";
+
+.loaderStyle {
+  width: 55px;
+  height: 55px;
+  // margin-left: 50%;
+  margin-top: 10%;
+  display: block;
+  color: $gold-light !important;
+}
+.loaderFileStyle{
+  width: 35px;
+  height: 35px;
+  margin-top: 10%;
+  display: block;
+  color: $gold-light !important;
+}
